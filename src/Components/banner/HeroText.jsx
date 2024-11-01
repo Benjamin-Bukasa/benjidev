@@ -17,7 +17,7 @@ const HeroText = () => {
         design et le développement d'interfaces front-end
       </p>
       <div className="w-full flex justify-start items-center gap-6">
-        <Button boutonContent="Contactez-moi" />
+        <Button boutonContent="Contactez-moi"/>
         <Link to="/" className="font-semibold underline text-[13px]">
           Télécharger mon cv
         </Link>

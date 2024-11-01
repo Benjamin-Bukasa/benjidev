@@ -2,10 +2,10 @@ import Number from "./Number";
 
 const SomeNumbers = () => {
   return (
-    <div className="w-1/2 h-full px-4 divide-y bg-black rounded-xl ">
-      <Number number={8} comment="années d'expérience" sign="+" />
-      <Number number={10} comment="projets participés" sign="+" />
-      <Number number={15} comment="clients satisfaits" sign="%" />
+    <div className="w-2/4 h-full px-4 divide-y divide-zinc-800 bg-black rounded-xl ">
+      <Number number={5} comment="années d'expérience" sign="+" />
+      <Number number={10} comment="grand projets participés" sign="+" />
+      <Number number={99} comment="clients satisfaits" sign="%" />
     </div>
   );
 };
