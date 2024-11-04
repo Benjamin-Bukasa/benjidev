@@ -15,7 +15,7 @@ import { RiMenu2Fill } from "react-icons/ri";
 
 function App() {
 
-  const [mode, setMode] = useState(false)
+  const [mode, setMode] = useState(true)
 
   const theme = ()=>{
     setMode(!mode)

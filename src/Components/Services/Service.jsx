@@ -1,4 +1,5 @@
 import { IoIosArrowDroprightCircle } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Service=() =>{
     const services = [
@@ -48,13 +49,15 @@ const Service=() =>{
                     {
                         services.map((service)=>(
             
-                                <div className="w-[45%] flex justify-between items-center hover:border-[#c8f31d] gap-5 bg-[#232323] px-4 py-8 rounded-lg" >
-                                    <div className="flex flex-col gap-1">
-                                        <div className="">{service.title}</div>
-                                        <div className="text-[12px] opacity-50">{service.comment}</div>
+                                <Link to={`/${service.title}`} className="w-[45%] flex justify-between items-center  hover:border hover:border-[#c8f31d] hover:text-[#c8f31d] ease-in-out duration-300 transition gap-5 bg-[#232323] px-4 py-8 rounded-lg cursor-pointer">
+                                    <div className="w-full flex justify-between items-center" >
+                                            <div className="flex flex-col gap-1 hover:text-white">
+                                                <div className="text-white">{service.title}</div>
+                                                <div className="text-[12px] text-white opacity-50 hover:opacity-50 ">{service.comment}</div>
+                                            </div>
+                                            <IoIosArrowDroprightCircle size={40} />
                                     </div>
-                                    <IoIosArrowDroprightCircle size={40} />
-                                </div>
+                                </Link>
                             
                         ))
                     }
