@@ -10,31 +10,31 @@ const Service=() =>{
             icon:""
         },
         {
-            id:"01",
+            id:"02",
             title:"Application",
             comment:"Développement des application web et mobile",
             icon:""
         },
         {
-            id:"01",
+            id:"03",
             title:"Content Manager System",
             comment:"Conception des sites web avec wordPress (WooCommerce, Etc...)",
             icon:""
         },
         {
-            id:"01",
+            id:"04",
             title:"Web Design",
             comment:"Maquettage, UI/UX design, Intégration de maquette web",
             icon:""
         },
         {
-            id:"01",
+            id:"05",
             title:"Maintenance Informatique",
             comment:"Conception des sites web statique et dynamique",
             icon:""
         },
         {
-            id:"01",
+            id:"06",
             title:"Consultance",
             comment:"Audit des applications web",
             icon:""
@@ -51,6 +51,7 @@ const Service=() =>{
             
                                 <Link to={`/${service.title}`} className="w-[45%] flex justify-between items-center  hover:border hover:border-[#c8f31d] hover:text-[#c8f31d] ease-in-out duration-300 transition gap-5 bg-[#232323] px-4 py-8 rounded-lg cursor-pointer">
                                     <div className="w-full flex justify-between items-center" >
+                                        {/* <div className="text-[16px] font-semibold">{service.id}</div> */}
                                             <div className="flex flex-col gap-1 hover:text-white">
                                                 <div className="text-white">{service.title}</div>
                                                 <div className="text-[12px] text-white opacity-50 hover:opacity-50 ">{service.comment}</div>
