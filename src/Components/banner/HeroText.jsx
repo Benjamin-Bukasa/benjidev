@@ -7,9 +7,9 @@ const HeroText = () => {
     <div className="flex flex-col justify-start items-start gap-6 leading-1 w-1/3">
       <div className="">
         <p className="opacity-50 text-[25px]">Salut, je suis</p>
-        <h1 className="text-[#c8f31d] font-semibold text-[45px] leading-[60px]">
-          Benjamin Kabeya{" "}
-          <span className="font-semibold text-white">Développeur Web</span>
+        <h1 className=" font-semibold text-[45px] leading-[60px]">
+          <span className="text-[#c8f31d]">Benjamin Kabeya{" "}</span>
+          <span className="font-semibold dark:text-white">Développeur Web</span>
         </h1>
       </div>
       <p className="opacity-50 leading-6">

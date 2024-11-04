@@ -5,10 +5,13 @@ import { SlSettings } from "react-icons/sl";
 import { IoLayersOutline } from "react-icons/io5";
 import { BsChatDots } from "react-icons/bs";
 import { FaDraftingCompass } from "react-icons/fa";
+import { useContext } from "react";
+import { ThemeContext } from '../../ThemeContext';
 
 const MenuItems = () => {
+  const { theme, toggleTheme } = useContext(ThemeContext);
   return (
-    <div className="p-3">
+    <div className={`p-1`}>
       <MenuItem
         icon={<IoHomeOutline size={30} />}
         text="Accueil"
