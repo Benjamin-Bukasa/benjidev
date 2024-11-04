@@ -7,7 +7,7 @@ const AboutList = () => {
       <div className="w-1/2 flex flex-col justify-around items-start gap-2">
         <li className="flex justify-start items-center gap-4">
           <FaCheck size={20} className="text-[#c8f31d]" />
-          <span className="">Développement site web</span>
+          <span className="">Développement des sites web</span>
         </li>
         <li className="flex justify-start items-center gap-4">
           <FaCheck size={20} className="text-[#c8f31d]" />
@@ -17,7 +17,7 @@ const AboutList = () => {
       <div className="w-1/2 flex flex-col justify-around items-start gap-2">
         <li className="flex justify-start items-center gap-4">
           <FaCheck size={20} className="text-[#c8f31d]" />
-          <span className="">Développement appli web</span>
+          <span className="">Développement des applications web</span>
         </li>
         <li className="flex justify-start items-center gap-4">
           <FaCheck size={20} className="text-[#c8f31d]" />

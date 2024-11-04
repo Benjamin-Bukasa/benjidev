@@ -14,7 +14,7 @@ const AboutText = () => {
         </h2>
       </div>
       <div className="text-zinc-500 text-[13px] text-justify">
-        Diplômé de Kadea Academy en développement web et web mobile depuis 2024,
+        Diplômé de Kadea Academy en développement web et web mobile,
         ayant des compétences hardskill basées sur les technologies de
         développement web très récentes (NodeJS, NextJS, ReactJS, Express,
         etc...) mais également des softskills permettants de travailler en

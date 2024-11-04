@@ -9,6 +9,35 @@ const routes = createBrowserRouter([
     path: "/",
     element: <App />,
   },
+//  {
+//     path:"apropos",
+//     element:<Apropos/>
+//   },
+//   {
+//     path:"services",
+//     element:<Services/>
+//   },
+//   {
+//     path:"savoirs",
+//     element:<Savoir/>
+//   },
+//   {
+//     path:"portfolio",
+//     element:<Portfolio/>
+//   },
+//   {
+//     path:"contact",
+//     element:<Contact/>
+//   },
+//   {
+//     path:"adminloginpage",
+//     element:<Login/>
+//   },
+//   {
+//     path:"adminpage",
+//     element:<Admin/>
+//   }, 
+  
 ]);
 
 createRoot(document.getElementById("root")).render(
