@@ -24,7 +24,7 @@ const AboutText = () => {
       <div className="w-full flex flex-col">
         <AboutList />
       </div>
-      <div className="w-full bg-[#232323] border-[#424242] px-4 py-1 rounded-xl">
+      <div className="w-full dark:bg-[#232323] bg-zinc-200 border-[#424242] px-4 py-1 rounded-xl">
         <AboutContact />
       </div>
     </div>
