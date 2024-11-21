@@ -49,12 +49,12 @@ const Service=() =>{
                     {
                         services.map((service)=>(
             
-                                <Link to={`/${service.title}`} className="w-[45%] flex justify-between items-center  hover:border hover:border-[#c8f31d] hover:text-[#c8f31d] ease-in-out duration-300 transition gap-5 bg-[#232323] px-4 py-8 rounded-lg cursor-pointer border border-[#232323]">
+                                <Link to={`/${service.title}`} className="w-[45%] flex justify-between items-center  dark:hover:border hover:border-[#c8f31d] hover:text-[#c8f31d] ease-in-out duration-300 transition gap-5 bg-zinc-100 dark:bg-[#232323] px-4 py-8 rounded-lg cursor-pointer border border-[#232323]">
                                     <div className="w-full flex justify-between items-center" >
                                         {/* <div className="text-[16px] font-semibold">{service.id}</div> */}
                                             <div className="flex flex-col gap-1 hover:text-white">
-                                                <div className="text-white">{service.title}</div>
-                                                <div className="text-[12px] text-white opacity-50 hover:opacity-50 ">{service.comment}</div>
+                                                <div className="text-zinc-600 dark:text-white ">{service.title}</div>
+                                                <div className="text-[12px] text-zinc-600 dark:text-white opacity-50 hover:opacity-50 ">{service.comment}</div>
                                             </div>
                                             <IoIosArrowDroprightCircle size={40} />
                                     </div>

@@ -1,12 +1,16 @@
 import React from 'react'
 import { IoIosArrowDroprightCircle } from "react-icons/io";
+import { useContext } from 'react';
+import { ThemeContext } from '../../ThemeContext';
+
 
 const ExprienceText = () => {
+  const { theme, toggleTheme } = useContext(ThemeContext);
   return (
-    <div className='w-2/3 p-4 flex flex-col itemstatr justify-start gap-4'>
+    <div className='w-2/3 p-4 flex flex-col items-start justify-start gap-4'>
       <p className="">Mon parcours</p>
       <h3 className="text-[40px] w-2/3">Parcour et <span className='text-[#c7f324] '>Expérience professionnelle</span></h3>
-      <div className="flex flex-col items-center justify-between gap-10 bg-[#232323] p-10">
+      <div className="flex flex-col items-center justify-between gap-10 bg-zinc-100 dark:bg-[#232323]  p-10">
         <div className="flex justify-start gap-10  w-full">
             <div className="w-1/2 flex  items-start gap-1">
                 <IoIosArrowDroprightCircle size={20} />

@@ -7,11 +7,12 @@ import { ThemeProvider } from "./ThemeContext";
 
 function App() {
 
+  document.title = "BenjiDev"
  
   return (
     <>
       <ThemeProvider>
-        <div className={`w-full px-20 py-0 flex flex-col justify-start items-start gap-5 light:bg-[#fff] dark:bg-[#131313] transition ease-in-out transition ease-in-out`}>
+        <div className={`w-full px-20 py-0 flex flex-col justify-start items-start gap-5 light:bg-[#f2f2f2] dark:bg-[#131313] transition ease-in-out transition ease-in-out`}>
           <Navbar/>
           <Hero />
           <About />

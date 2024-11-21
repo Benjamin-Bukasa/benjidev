@@ -15,32 +15,32 @@ const MenuItems = () => {
       <MenuItem
         icon={<IoHomeOutline size={30} />}
         text="Accueil"
-        style="w-full opacity flex flex-col justify-center items-center gap-2 py-5 text-black bg-[#c7f324] rounded-xl"
+        style="w-full opacity flex flex-col justify-center items-center gap-2 py-5 text-black bg-[#c7f324] rounded-xl cursor-pointer"
       />
       <MenuItem
         icon={<FaRegUser size={30} />}
         text="A propos"
-        style="w-full opacity-50 flex flex-col justify-center items-center gap-2 py-5 "
+        style="w-full opacity-50 flex flex-col justify-center items-center gap-2 py-5 rounded-xl cursor-pointer"
       />
       <MenuItem
         icon={<SlSettings size={30} />}
         text="Services"
-        style="w-full opacity-50 flex flex-col justify-center items-center gap-2 py-5 rounded-xl"
+        style="w-full opacity-50 flex flex-col justify-center items-center gap-2 py-5 rounded-xl cursor-pointer"
       />
       <MenuItem
         icon={<IoLayersOutline size={30} />}
         text="Savoirs"
-        style="w-full opacity-50 flex flex-col justify-center items-center gap-2 py-5 rounded-xl"
+        style="w-full opacity-50 flex flex-col justify-center items-center gap-2 py-5 rounded-xl cursor-pointer"
       />
       <MenuItem
         icon={<FaDraftingCompass size={30} />}
         text="Portfolio"
-        style="w-full opacity-50 flex flex-col justify-center items-center gap-2 py-5 rounded-xl"
+        style="w-full opacity-50 flex flex-col justify-center items-center gap-2 py-5 rounded-xl cursor-pointer"
       />
       <MenuItem
         icon={<BsChatDots size={30} />}
         text="Contact"
-        style="w-full opacity-50 flex flex-col justify-center items-center gap-2 py-5 rounded-xl"
+        style="w-full opacity-50 flex flex-col justify-center items-center gap-2 py-5 rounded-xl cursor-pointer"
       />
     </div>
   );
