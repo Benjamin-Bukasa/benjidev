@@ -44,7 +44,7 @@ const Service=() =>{
         <>
             <div className="w-full flex flex-col items-center justify-start gap-5">
                 <p className="text-[#c8f31d] text-4 text-center">Services</p>
-                <h2 className="w-1/3 text-center text-[40px]">Développe ton bussiness grace à <span className="text-[#c8f31d]">mes services </span></h2>
+                <h2 className="w-1/3 text-center text-[40px]">Développe ton business grace à <span className="text-[#c8f31d]">mes services </span></h2>
                 <div className="w-[70%] p-5 flex flex-wrap justify-center gap-4 ">
                     {
                         services.map((service)=>(

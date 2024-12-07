@@ -3,6 +3,7 @@ import Navbar from "./Components/banner/Navbar";
 import Experience from "./Components/Experiences/Experience";
 import About  from "./Components/SectionAbout/About";
 import Service from "./Components/Services/Service";
+import Skills from "./Components/Skills/Skills";
 import { ThemeProvider } from "./ThemeContext";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <About />
           <Experience/>
           <Service/>
+          <Skills/>
         </div>
       </ThemeProvider>
     </>
